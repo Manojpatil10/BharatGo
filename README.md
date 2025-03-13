@@ -39,8 +39,11 @@ npm install
 Create a `.env` file inside the `backend` directory and add the following environment variables:
 <br>
 PORT=8080
+<br>
 MONGODB_URL="mongodb://127.0.0.1:27017/bharatgo"
+<br>
 ATLAS_URL="mongodb+srv://mrpnashik:12345@cluster0.xgjf1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+<br>
 SECRET_KEY="ManojPatil10"
 
 Start the backend server:
