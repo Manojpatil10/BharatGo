@@ -1,0 +1,81 @@
+.Wrapper {
+  min-height: 80vh;
+  padding: 30px;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 600;
+  color: teal;
+  margin-bottom: 20px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+.ProfileImage {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.ProfileImage img {
+  height: 130px;
+  width: 130px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.Form label {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.Form input {
+  height: 30px;
+  margin: 8px 0;
+  border: 1px solid lightgray;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.GenderOptions {
+  display: flex;
+  gap: 25px;
+}
+
+.GenderOptions label {
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.GenderOptions input {
+  margin-right: 5px;
+  accent-color: teal;
+  cursor: pointer;
+}
+
+.UpdateButton {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: teal;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.UpdateButton:hover {
+  background-color: rgb(1, 114, 114);
+}
